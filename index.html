@@ -1,1 +1,196 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daviblox — DAVID BASZUCKI.EXE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0e27;
+            color: #00ff00;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        header {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-bottom: 2px solid #00ff00;
+            margin-bottom: 2rem;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5rem;
+            animation: flicker 0.1s infinite;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #00cc00;
+            margin-top: 1rem;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+            border: 1px solid #00ff00;
+            padding: 2rem;
+            background: rgba(0, 255, 0, 0.05);
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #00ff00;
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            font-size: 1.3em;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: #00ffff;
+        }
+        
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        a {
+            color: #00ffff;
+            text-decoration: none;
+            border-bottom: 1px dotted #00ffff;
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: #ff00ff;
+            text-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+            border-bottom-color: #ff00ff;
+        }
+        
+        .credits {
+            background: rgba(0, 50, 100, 0.3);
+            border-left: 3px solid #00ffff;
+            padding-left: 1.5rem;
+        }
+        
+        .source-link {
+            display: inline-block;
+            margin: 0.5rem 0.5rem 0.5rem 0;
+            padding: 0.5rem 1rem;
+            border: 1px solid #00ff00;
+            background: rgba(0, 255, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .source-link:hover {
+            background: rgba(0, 255, 0, 0.2);
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 2px solid #00ff00;
+            margin-top: 3rem;
+            color: #00cc00;
+            font-size: 0.9em;
+        }
+        
+        @keyframes flicker {
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+                text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            }
+            20%, 24%, 55% {
+                text-shadow: 0 0 5px rgba(0, 255, 0, 0.2);
+            }
+        }
+        
+        .warning {
+            color: #ffff00;
+            border: 2px solid #ffff00;
+            padding: 1rem;
+            margin: 1rem 0;
+            background: rgba(255, 255, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daviblox</h1>
+        <div class="subtitle">DAVID BASZUCKI.EXE</div>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>About</h2>
+            <p>A project exploring digital artifacts, sound design, and nostalgic computing aesthetics. This experience combines synthesized audio, spatial processing, and visual elements to create an immersive narrative.</p>
+        </section>
+        
+        <section class="credits">
+            <h2>Asset Attribution</h2>
+            
+            <h3>Sounds</h3>
+            <ul>
+                <li><strong>Old Door Creaking</strong> — Stephan (public domain)</li>
+                <li><strong>Generated breath and radio noise</strong> — Original synthesis</li>
+                <li><strong>Female Scream Horror</strong> — NeoPhyTe (public domain)</li>
+                <li><strong>Knocking On Door</strong> — ERH, CC Sampling Plus 1.0
+                    <ul>
+                        <li>Door recording remixed with spatial panning and altered playback speed</li>
+                    </ul>
+                </li>
+                <li><strong>Dark Empty Tunnel</strong> — TomIsNotResponding, CC0</li>
+                <li><strong>Abandonded Vol 1</strong> — Tim Zjagadsky, CC BY 3.0
+                    <ul>
+                        <li>Photographs displayed in grayscale with contrast and brightness adjustments</li>
+                    </ul>
+                </li>
+                <li><strong>26 original synthesized sound designs</strong></li>
+                <li><strong>Binary data sonification</strong> — Two alternating tones</li>
+            </ul>
+            
+            <h3>Source and License Links</h3>
+            <div>
+                <a href="https://soundbible.com/1362-Old-Door-Creaking.html" class="source-link">Old Door Creaking</a>
+                <a href="https://soundbible.com/1627-Female-Scream-Horror.html" class="source-link">Female Scream Horror</a>
+                <a href="https://soundbible.com/1196-Knocking-On-Door.html" class="source-link">Knocking On Door</a>
+                <a href="https://creativecommons.org/licenses/sampling+/1.0/" class="source-link">CC Sampling Plus 1.0</a>
+                <a href="https://commons.wikimedia.org/wiki/File:Dark_Empty_Tunnel.jpg" class="source-link">Dark Empty Tunnel</a>
+                <a href="https://commons.wikimedia.org/wiki/File:Abandonded_Vol_1_(166993195).jpeg" class="source-link">Abandonded Vol 1</a>
+                <a href="https://creativecommons.org/licenses/by/3.0/" class="source-link">CC BY 3.0</a>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Credits</h2>
+            <p>This project uses and transforms audio samples and visual materials from various open sources and creative commons licensed works. All attributions and licenses are preserved and linked above.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>Daviblox © 2026 | DAVID BASZUCKI.EXE</p>
+        <p>All assets used are properly attributed and licensed.</p>
+    </footer>
+</body>
+</html>
